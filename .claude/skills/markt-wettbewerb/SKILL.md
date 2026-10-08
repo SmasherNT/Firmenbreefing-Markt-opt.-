@@ -10,7 +10,7 @@ Sachlich (Produkte/Leistungen), räumlich (Regionen), Kundengruppen. Abgrenzung 
 
 ## 2. Marktdaten
 - Volumen, Wachstum (CAGR), Struktur – bevorzugt amtliche Statistik, Verbände, Pflichtangaben von Wettbewerbern.
-- Jede Zahl mit Quellen-ID, Bezugsjahr und Definition.
+- Jede Zahl als Claim (`C-M..`) mit Bezugsjahr, Definition und Belegstelle.
 
 ## 3. Wettbewerb
 Tabelle der 3–6 wichtigsten Wettbewerber: Name, Umsatz (Jahr, Quelle), Segment, Region, Besonderheit.
@@ -22,7 +22,7 @@ Nachfragetreiber, Regulierung, Technologie, Preise/Kosten, Konsolidierung (kurz,
 ## 5. Positionierung und Hebel *(Bewertung – als solche kennzeichnen)*
 - Stärken / Schwächen / Chancen / Risiken (kompakt)
 - Markt-Optimierungshebel: Segmente, Regionen, Preis/Sortiment, Kanäle, Partnerschaften – je mit Begründung
-  und Bezug zu belegten Fakten.
+  aus belegten Claims (IDs nennen); strategische Aussagen mit Belegstärke.
 
 ## Format `work/markt.md`
-Abschnitte 1–5 wie oben, am Ende „Annahmen und Unsicherheiten“.
+Claim-Register → Abschnitte 1–5 → Widersprüche, Stichtagsprobleme, Datenlücken → Annahmen und Unsicherheiten.

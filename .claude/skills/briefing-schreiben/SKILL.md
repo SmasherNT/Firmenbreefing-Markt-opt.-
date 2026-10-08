@@ -15,11 +15,15 @@ Dateiname: `output/briefing-<firma>-<JJJJ-MM-TT>.md` (Firma in Kleinbuchstaben, 
 5. **Markt & Wettbewerb** – Markt, Wettbewerber, Positionierung
 6. **Chancen, Risiken, Optimierungshebel** *(Bewertung)*
 7. **Offene Fragen / Gesprächsansätze**
-8. **Grenzen der Analyse** – fehlende oder gesperrte Quellen, Annahmen
-9. **Quellen** – vollständige Liste aus `work/quellen.md`
+8. **Grenzen der Analyse** – Widersprüche, Stichtagsprobleme, Datenlücken, gesperrte Quellen, Annahmen,
+   Aussagen „nur einfach belegt“ und „Publicly not verifiable“
+9. **Anhang Claims** – konsolidiertes Claim-Register (alle Pflichtfelder) aus den Arbeitsdateien
+10. **Quellen** – Quellenverzeichnis aus `work/quellen.md`
 
 ## Qualitätskriterien
-- Jede Zahl und Tatsache mit `[Qn]` belegt; Bewertungen sprachlich als solche erkennbar.
+- Jede wesentliche Aussage mit Claim-ID belegt, z. B. `[C-F03]`; Interpretationen als solche erkennbar und begründet.
+- Belegstärke im Text sichtbar, wenn nicht zweifach belegt: „(nur einfach belegt)“, „(Publicly not verifiable)“.
 - Kernbriefing (Abschnitte 1–7) max. ca. 3 Seiten.
-- Keine Werte, die nicht in `work/` dokumentiert sind.
+- Keine Werte, Daten, Links oder Beteiligungsquoten, die nicht in `work/` als Claim dokumentiert sind.
+- Nur der Hauptagent schreibt nach `output/`.
 - Vor Freigabe Agent `faktenpruefung` ausführen und Befunde einarbeiten.

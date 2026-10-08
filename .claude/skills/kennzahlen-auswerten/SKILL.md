@@ -5,7 +5,7 @@ description: Anleitung zur Erhebung und Berechnung von Finanzkennzahlen aus Jahr
 
 # Kennzahlen auswerten
 
-## Basisdaten (je Geschäftsjahr, mit Quellen-ID)
+## Basisdaten (je Geschäftsjahr, je Wert ein Claim `C-F..` mit Belegstelle)
 Umsatz · EBITDA · EBIT · Jahresüberschuss · Bilanzsumme · Eigenkapital · Finanzverbindlichkeiten ·
 liquide Mittel · operativer Cashflow · Investitionen (Capex) · Mitarbeitende
 
@@ -30,5 +30,6 @@ Berechnungen mit `Bash` (z. B. `python3 -c`) nachvollziehbar durchführen; Ergeb
 - Sondereffekte und Vergleichbarkeitsbrüche
 
 ## Format `work/kennzahlen.md`
-Tabelle Basisdaten → Tabelle Kennzahlen → Auffälligkeiten (Stichpunkte) → offene Punkte.
+Claim-Register (Format siehe Skill `quellen-sichern`) → Tabelle Basisdaten (mit Claim-IDs) → Tabelle Kennzahlen
+(Rechenweg, Claim-IDs der Eingangswerte) → Auffälligkeiten → Widersprüche, Stichtagsprobleme, Datenlücken.
 Kleine Gesellschaften mit verkürztem Abschluss: verfügbare Werte nutzen, Rest „n. v.“.
